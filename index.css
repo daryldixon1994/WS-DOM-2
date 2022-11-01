@@ -1,18 +1,20 @@
 i {
     cursor: pointer;
     font-size: 30px;
-  }
-  
-  .navbar-brand {
+}
+
+.navbar-brand {
     color: green !important;
-  }
-  
-  .carousel-item {
+}
+
+.carousel-item {
     height: 600px;
-  }
-  
-  /* Shopping card */
-  .shopping-card {
+}
+li {
+    list-style-type: none;
+}
+/* Shopping card */
+.shopping-card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,66 +22,66 @@ i {
     padding: 20px;
     border-radius: 2%;
     margin: 50px 10%;
-  }
-  
-  .total-price-container {
+}
+
+.total-price-container {
     background-color: #eeeeee;
     border-radius: 10px;
     padding: 20px;
-  }
-  
-  .total-price-container span {
+}
+
+.total-price-container span {
     font-size: 30px;
-  }
-  
-  /* Card content CSS */
-  .cards-container {
+}
+
+/* Card content CSS */
+.cards-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-  }
-  
-  .card {
+}
+
+.card {
     margin: 2%;
     background-color: white;
     border-radius: 10px;
     padding: 2%;
-  }
-  
-  .product-image {
+}
+
+.product-image {
     width: 100%;
-  }
-  
-  .unit-price {
+}
+
+.unit-price {
     font-size: 20px;
     font-weight: bold;
-  }
-  
-  .plus-btn,
-  .minus-btn {
+}
+
+.plus-btn,
+.minus-btn {
     font-size: 30px;
     margin: 10px;
-  }
-  
-  .plus-btn:hover {
+}
+
+.plus-btn:hover {
     color: rgb(30, 95, 30);
-  }
-  
-  .minus-btn:hover {
+}
+
+.minus-btn:hover {
     color: rgb(199, 16, 16);
-  }
-  
-  .list-group-item i {
+}
+
+.list-group-item i {
     margin: 10px;
-  }
-  
-  .fa-trash-alt {
+}
+
+.fa-trash-alt {
     font-size: 30px;
     color: black;
-  }
+}
 
-  .toggleHeart{
-      color:red
-  }
+.toggleHeart {
+    color: red;
+}
